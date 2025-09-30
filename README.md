@@ -5,3 +5,4 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 ---
 ## Arrays
 1. [Two Sum](https://leetcode.com/problems/two-sum/) - Easy - Hashmap solution
+2.[Concatenation of array](https://leetcode.com/problems/concatenation-of-array/) -Easy - extend array to itself

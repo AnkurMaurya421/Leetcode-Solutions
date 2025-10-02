@@ -10,3 +10,4 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 
 ## Numbers
 1. [Water Bottles](https://leetcode.com/problems/water-bottles/)-Easy-Simple arithmetic division and multiplication to simulate the process
+2. [Water Bottles 2](https://leetcode.com/problems/water-bottles-ii/)-Medium-Just simulate the process on given conditions

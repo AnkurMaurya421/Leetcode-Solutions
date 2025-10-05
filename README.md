@@ -12,6 +12,8 @@ to next pillar
 ## Numbers
 1. [Water Bottles](https://leetcode.com/problems/water-bottles/)-Easy-Simple arithmetic division and multiplication to simulate the process
 2. [Water Bottles 2](https://leetcode.com/problems/water-bottles-ii/)-Medium-Just simulate the process on given conditions
+3. [Compute Alternating Sum](https://leetcode.com/contest/weekly-contest-470/problems/compute-alternating-sum)-Easy-simulate the process of alternating sum by using a boolean flag to track addition and subtraction
 
 ## String
 1. [reverseWords](https://leetcode.com/problems/reverse-words-in-a-string/) - Medium- simple stack approach
+

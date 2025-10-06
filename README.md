@@ -16,4 +16,5 @@ to next pillar
 
 ## String
 1. [reverseWords](https://leetcode.com/problems/reverse-words-in-a-string/) - Medium- simple stack approach
+2. [majority-frequency-characters](https://leetcode.com/problems/majority-frequency-characters/)-Easy-Simply store freq of each character then store freq as a key in another dictionary and characters as values..return the value of maximum lentgh and key.
 

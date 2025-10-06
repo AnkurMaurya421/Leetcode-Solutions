@@ -5,6 +5,9 @@
 
 
 
+from typing import List
+
+
 class Solution:
     def alternatingSum(self, nums: List[int]) -> int:
         result=0

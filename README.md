@@ -26,9 +26,12 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 2. [Water Bottles 2](https://leetcode.com/problems/water-bottles-ii/)
 **Medium**
 ->Just simulate the process on given conditions
-3. [Compute Alternating Sum](https://leetcode.com/contest/weekly-contest-470/problems/compute-alternating-sum)**Easy**
+3. [Compute Alternating Sum](https://leetcode.com/contest/weekly-contest-470/problems/compute-alternating-sum)
+**Easy**
 ->simulate the process of alternating sum by using a boolean flag to track addition and subtraction
-
+4. [earliest-time-to-finish-one-task](https://leetcode.com/problems/earliest-time-to-finish-one-task/)
+**easy**
+->Just calculate the time taken for each task and return the minimum time taken
 ## String
 1. [reverseWords](https://leetcode.com/problems/reverse-words-in-a-string/)
 **Medium**

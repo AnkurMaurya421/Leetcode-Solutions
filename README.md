@@ -40,3 +40,8 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 **Easy**
 ->Simply store freq of each character then store freq as a key in another dictionary and characters as values..return the value of maximum lentgh and key.
 
+## Dynamic programming
+1. [climbing-stairs](https://leetcode.com/problems/climbing-stairs/)
+**Easy**
+-> Use recursion with memoization to avoid recomputation of already solved subproblems. The number of ways to reach the nth step is the sum of the ways to reach the (n-1)th and (n-2)th steps.
+

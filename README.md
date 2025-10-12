@@ -39,6 +39,11 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 2. [majority-frequency-characters](https://leetcode.com/problems/majority-frequency-characters/)
 **Easy**
 ->Simply store freq of each character then store freq as a key in another dictionary and characters as values..return the value of maximum lentgh and key.
+3. [sum-of-elements-with-frequency-divisible-by-k](https://leetcode.com/contest/weekly-contest-471/problems/sum-of-elements-with-frequency-divisible-by-k/)
+ **Easy**
+-> Use a dictionary to count the frequency of each element in the array.
+  Then, iterate through the dictionary and for each element whose frequency is divisible by k,
+ add the product of the element and its frequency to the result.
 
 ## Dynamic programming
 1. [climbing-stairs](https://leetcode.com/problems/climbing-stairs/)

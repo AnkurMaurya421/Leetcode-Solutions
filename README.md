@@ -44,6 +44,11 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 -> Use a dictionary to count the frequency of each element in the array.
   Then, iterate through the dictionary and for each element whose frequency is divisible by k,
  add the product of the element and its frequency to the result.
+4.[find-resultant-array-after-removing-anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)
+**Easy**
+-> create a funtion to check anagram and then iterate through the array
+ using a pointer to check if the current word is an anagram of the previous word.
+  If it is not an anagram, add it to the result array.
 
 ## Dynamic programming
 1. [climbing-stairs](https://leetcode.com/problems/climbing-stairs/)

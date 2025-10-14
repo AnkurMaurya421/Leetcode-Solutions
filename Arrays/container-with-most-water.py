@@ -11,6 +11,9 @@
 
 
 
+from typing import List
+
+
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         r,l,volume,maxVolume=(len(height)-1),0,0,0

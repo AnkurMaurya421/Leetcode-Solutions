@@ -19,6 +19,9 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 **Medium**
 ->use the intuition that xor will be zero if all elements are zero
 ->if there are non zero elements and xor is still zero then we have to remove exactly on element to make it non zero
+5. [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+**Easy**
+->set min and max to first element,set result to 0, iterate and update min and max to current element every time you found a new min...and also update the result with max-min every time you found the new min.
 ## Numbers
 1. [Water Bottles](https://leetcode.com/problems/water-bottles/)
 **Easy**
@@ -44,7 +47,7 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 -> Use a dictionary to count the frequency of each element in the array.
   Then, iterate through the dictionary and for each element whose frequency is divisible by k,
  add the product of the element and its frequency to the result.
-4.[find-resultant-array-after-removing-anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)
+4. [find-resultant-array-after-removing-anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)
 **Easy**
 -> create a funtion to check anagram and then iterate through the array
  using a pointer to check if the current word is an anagram of the previous word.

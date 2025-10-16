@@ -58,3 +58,9 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 **Easy**
 -> Use recursion with memoization to avoid recomputation of already solved subproblems. The number of ways to reach the nth step is the sum of the ways to reach the (n-1)th and (n-2)th steps.
 
+
+
+## Linked List
+1. [middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/)
+**Easy**
+-> get to the middle by initializing two pointers at ste start and moving one by one step and another by two step when the two step pointer reaches the end one step pointer will be at the middle of linked list.

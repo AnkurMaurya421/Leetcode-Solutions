@@ -4,6 +4,9 @@ This repository contains my solutions to LeetCode problems, organized by topic.
 Each problem includes a **link**, **difficulty**, and **approach summary**.
 ---
 ## Arrays
+
+
+
 1. [Two Sum](https://leetcode.com/problems/two-sum/)
 **Easy**
 ->Hashmap solution
@@ -22,7 +25,13 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 5. [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 **Easy**
 ->set min and max to first element,set result to 0, iterate and update min and max to current element every time you found a new min...and also update the result with max-min every time you found the new min.
+6.[longest-balanced-subarray-i](https://leetcode.com/problems/longest-balanced-subarray-i/)
+**Medium**
+-> Check all subarrays and count unique even and odd numbers using a set.Update the result if counts are equal.
 ## Numbers
+
+
+
 1. [Water Bottles](https://leetcode.com/problems/water-bottles/)
 **Easy**
 ->Simple arithmetic division and multiplication to simulate the process
@@ -35,7 +44,18 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 4. [earliest-time-to-finish-one-task](https://leetcode.com/problems/earliest-time-to-finish-one-task/)
 **easy**
 ->Just calculate the time taken for each task and return the minimum time taken
+5. [smallest-missing-multiple-of-k](https://leetcode.com/problems/smallest-missing-multiple-of-k/)
+**Easy**
+->Generate multiples of k and check which is the smallest not present in the array.
+
+
+
+
 ## String
+
+
+
+
 1. [reverseWords](https://leetcode.com/problems/reverse-words-in-a-string/)
 **Medium**
 -> simple stack approach
@@ -54,13 +74,18 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
   If it is not an anagram, add it to the result array.
 
 ## Dynamic programming
+
+
+
+
 1. [climbing-stairs](https://leetcode.com/problems/climbing-stairs/)
 **Easy**
 -> Use recursion with memoization to avoid recomputation of already solved subproblems. The number of ways to reach the nth step is the sum of the ways to reach the (n-1)th and (n-2)th steps.
-
-
-
 ## Linked List
+
+
+
+
 1. [middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/)
 **Easy**
 -> get to the middle by initializing two pointers at ste start and moving one by one step and another by two step when the two step pointer reaches the end one step pointer will be at the middle of linked list.

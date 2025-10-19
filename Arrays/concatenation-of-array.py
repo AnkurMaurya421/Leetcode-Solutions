@@ -4,6 +4,9 @@
 # Approach: Just extend the array with itself
 
 
+from rpds import List
+
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         return nums + nums

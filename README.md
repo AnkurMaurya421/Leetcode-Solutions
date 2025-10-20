@@ -72,6 +72,11 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 -> create a funtion to check anagram and then iterate through the array
  using a pointer to check if the current word is an anagram of the previous word.
   If it is not an anagram, add it to the result array.
+5.[final-value-of-variable-after-performing-operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
+**Easy**
+->Approach:set x=0 and perform the operation on given condition
+
+
 
 ## Dynamic programming
 

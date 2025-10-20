@@ -4,6 +4,9 @@
 # Approach: Use hashmap to store seen numbers and find complement
 
 
+from rpds import List
+
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashmap={}

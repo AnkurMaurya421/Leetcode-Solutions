@@ -96,3 +96,7 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 -> get to the middle by initializing two pointers at ste start and moving one by one step and another by two step when the two step pointer reaches the end one step pointer will be at the middle of linked list.
 2. [reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/)**Easy**
 ->Iterate through the linked list and rebuild the links in reverse order by keeping track of the next node.
+3. [delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+**Medium**
+->copy the value of next node to current node and move to next node until we reach the end of linked list
+

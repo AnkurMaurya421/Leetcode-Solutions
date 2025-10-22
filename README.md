@@ -99,4 +99,6 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 3. [delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 **Medium**
 ->copy the value of next node to current node and move to next node until we reach the end of linked list
-
+4.[merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+**Easy**
+->recursively iterate through both linked list always choosing the smaller node and linking it to the next bigger node. return the choosen node.

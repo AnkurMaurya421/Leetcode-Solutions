@@ -72,9 +72,13 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 -> create a funtion to check anagram and then iterate through the array
  using a pointer to check if the current word is an anagram of the previous word.
   If it is not an anagram, add it to the result array.
-5.[final-value-of-variable-after-performing-operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
+5. [final-value-of-variable-after-performing-operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 **Easy**
 ->Approach:set x=0 and perform the operation on given condition
+6. [check-if-digits-are-equal-in-string-after-operations-i](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i)
+**Easy**
+->create a funtion for the given operation so that we can repeatedly call it until the length of string is 2. finally check if both digits are equal or not.
+
 
 
 

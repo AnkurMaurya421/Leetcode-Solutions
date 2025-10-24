@@ -106,3 +106,6 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 4.[merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 **Easy**
 ->recursively iterate through both linked list always choosing the smaller node and linking it to the next bigger node. return the choosen node.
+5. [remove-nth-node-from-end-of-list] **Medium** 
+->move a dummy pointer n time forward ..then start moving another pointer with that dummy pointer
+if dummy pointer reached at last node that means another pointer is at nth node..then remove nth node

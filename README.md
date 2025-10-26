@@ -25,9 +25,26 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 5. [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 **Easy**
 ->set min and max to first element,set result to 0, iterate and update min and max to current element every time you found a new min...and also update the result with max-min every time you found the new min.
-6.[longest-balanced-subarray-i](https://leetcode.com/problems/longest-balanced-subarray-i/)
+6. [longest-balanced-subarray-i](https://leetcode.com/problems/longest-balanced-subarray-i/)
 **Medium**
 -> Check all subarrays and count unique even and odd numbers using a set.Update the result if counts are equal.
+7. [maximum-alternating-sum-of-squares]
+(https://leetcode.com/problems/maximum-alternating-sum-of-squares/)
+**Medium**
+-> convert each element to its square and then sort the array...half of the elements at negative positions should be the smallest
+ for max alternating sum..so sum the smaller half as negative and larger half as positive and return the result
+
+8. [minimum-operations-to-transform-array]
+(https://leetcode.com/problems/minimum-operations-to-transform-array/)
+**Medium**
+->check if last element of nums2 can be achieved by minimum zero oepration...calculate the difference between corresponding elements of nums1 and nums2..sum the absolute differences
+finally add minimum operations needed to achieve last element of nums2 from any element of nums1
+
+
+
+
+
+
 ## Numbers
 
 
@@ -47,7 +64,10 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 5. [smallest-missing-multiple-of-k](https://leetcode.com/problems/smallest-missing-multiple-of-k/)
 **Easy**
 ->Generate multiples of k and check which is the smallest not present in the array.
-
+6. [ maximize-sum-of-squares-of-digits]
+( https://leetcode.com/problems/maximize-sum-of-squares-of-digits/)
+**Medium**
+-> calculate how many 9's can fit in the sum and check for remainder..if remainder exists we need one more digit.check if total digits needed is less than or equal to num..if yes construct the number with 9's , remainder and 0's else return empty string
 
 
 
@@ -78,6 +98,18 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 6. [check-if-digits-are-equal-in-string-after-operations-i](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i)
 **Easy**
 ->create a funtion for the given operation so that we can repeatedly call it until the length of string is 2. finally check if both digits are equal or not.
+
+7. [lexicographically-smallest-string-after-reverse]
+(https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/)
+**Medium**
+->check all possible reversals by iterating through each index and reversing the substring from start to that index and from that index to end..keep track of smallest string and return it
+
+8. [remove-zeros-in-decimal-representation]
+(https://leetcode.com/problems/remove-zeros-in-decimal-representation/)
+**Easy**
+->Approach: convert number to string and iterate through each character..add non zero characters to result string..finally convert result string to integer and return
+
+
 
 
 

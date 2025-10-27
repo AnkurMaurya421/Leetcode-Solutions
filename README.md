@@ -110,9 +110,10 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 ->Approach: convert number to string and iterate through each character..add non zero characters to result string..finally convert result string to integer and return
 
 
-
-
-
+9. [Number of Laser Beams in a Bank]
+( https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)
+**Medium**
+->basically number of beams between two subsequent rows containing device will be product of sum of devices of each row
 
 ## Dynamic programming
 

@@ -40,7 +40,13 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 ->check if last element of nums2 can be achieved by minimum zero oepration...calculate the difference between corresponding elements of nums1 and nums2..sum the absolute differences
 finally add minimum operations needed to achieve last element of nums2 from any element of nums1
 
-
+9. [make-array-elements-equal-to-zero](https://leetcode.com/problems/make-array-elements-equal-to-zero/description/)
+**Easy**
+-> if all elements are zero, each element can be removed in two ways (left or right), so return 2*n
+              Calculate the total sum of the array
+             Iterate through the array, maintaining left and right sums and checking conditions for valid removals
+                #if leftsum == rightsum, the element can be removed from either side (2 ways)
+                #if abs(leftsum - rightsum) == 1, the element can be removed from one side (1 way)
 
 
 

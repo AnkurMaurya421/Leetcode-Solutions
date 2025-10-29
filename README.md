@@ -74,6 +74,9 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 ( https://leetcode.com/problems/maximize-sum-of-squares-of-digits/)
 **Medium**
 -> calculate how many 9's can fit in the sum and check for remainder..if remainder exists we need one more digit.check if total digits needed is less than or equal to num..if yes construct the number with 9's , remainder and 0's else return empty string
+7.[smallest-number-with-all-set-bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)
+**Easy**
+-> set bit numbers are of form (2 ** n)-1 . So we can keep on checking for (2**n)-1 until we find the number greater than or equal to num.
 
 
 

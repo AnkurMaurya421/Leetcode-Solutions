@@ -151,3 +151,13 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 5. [remove-nth-node-from-end-of-list] **Medium** 
 ->move a dummy pointer n time forward ..then start moving another pointer with that dummy pointer
 if dummy pointer reached at last node that means another pointer is at nth node..then remove nth node
+
+
+
+
+# Binary search
+
+1. [sqrtx
+]# Link: https://leetcode.com/problems/sqrtx/
+ **Easy**
+->s Binary search between 0 to x to find the integer square root. If mid*mid is equal to x, return mid. If mid*mid is greater than x, move the right pointer to mid-1. If mid*mid is less than x, update maxi to mid if mid is greater than maxi and move the left pointer to mid+1. Finally, return maxi.

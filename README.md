@@ -48,7 +48,11 @@ finally add minimum operations needed to achieve last element of nums2 from any 
                 #if leftsum == rightsum, the element can be removed from either side (2 ways)
                 #if abs(leftsum - rightsum) == 1, the element can be removed from one side (1 way)
 
-
+10.
+[the-two-sneaky-numbers-of-digitville]
+(https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)
+**Easy**
+-> use set to track seen numbers, if a number is seen again, it's one of the sneaky numbers
 
 
 ## Numbers

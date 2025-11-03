@@ -48,11 +48,17 @@ finally add minimum operations needed to achieve last element of nums2 from any 
                 #if leftsum == rightsum, the element can be removed from either side (2 ways)
                 #if abs(leftsum - rightsum) == 1, the element can be removed from one side (1 way)
 
-10.
+10. 
 [the-two-sneaky-numbers-of-digitville]
 (https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)
 **Easy**
 -> use set to track seen numbers, if a number is seen again, it's one of the sneaky numbers
+11. [minimum-time-to-make-rope-colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) **Medium**
+-> greedy approach, iterate through the rope and whenever two adjacent colors are the same, remove the one with the smaller cost
+
+
+
+
 
 
 ## Numbers

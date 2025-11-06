@@ -25,14 +25,12 @@ Each problem includes a **link**, **difficulty**, and **approach summary**.
 6. [longest-balanced-subarray-i](https://leetcode.com/problems/longest-balanced-subarray-i/)
 **Medium**
 -> Check all subarrays and count unique even and odd numbers using a set.Update the result if counts are equal.
-7. [maximum-alternating-sum-of-squares]
-(https://leetcode.com/problems/maximum-alternating-sum-of-squares/)
+7. [maximum-alternating-sum-of-squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/)
 **Medium**
 -> convert each element to its square and then sort the array...half of the elements at negative positions should be the smallest
  for max alternating sum..so sum the smaller half as negative and larger half as positive and return the result
 
-8. [minimum-operations-to-transform-array]
-(https://leetcode.com/problems/minimum-operations-to-transform-array/)
+8. [minimum-operations-to-transform-array](https://leetcode.com/problems/minimum-operations-to-transform-array/)
 **Medium**
 ->check if last element of nums2 can be achieved by minimum zero oepration...calculate the difference between corresponding elements of nums1 and nums2..sum the absolute differences
 finally add minimum operations needed to achieve last element of nums2 from any element of nums1
@@ -46,8 +44,7 @@ finally add minimum operations needed to achieve last element of nums2 from any 
                 #if abs(leftsum - rightsum) == 1, the element can be removed from one side (1 way)
 
 10. 
-[the-two-sneaky-numbers-of-digitville]
-(https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)
+[the-two-sneaky-numbers-of-digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)
 **Easy**
 -> use set to track seen numbers, if a number is seen again, it's one of the sneaky numbers
 11. [minimum-time-to-make-rope-colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) **Medium**

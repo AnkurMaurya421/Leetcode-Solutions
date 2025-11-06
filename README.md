@@ -4,9 +4,6 @@ This repository contains my solutions to LeetCode problems, organized by topic.
 Each problem includes a **link**, **difficulty**, and **approach summary**.
 ---
 ## Arrays
-
-
-
 1. [Two Sum](https://leetcode.com/problems/two-sum/)
 **Easy**
 ->Hashmap solution
@@ -62,9 +59,6 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 
 
 ## Numbers
-
-
-
 1. [Water Bottles](https://leetcode.com/problems/water-bottles/)
 **Easy**
 ->Simple arithmetic division and multiplication to simulate the process
@@ -90,11 +84,10 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 
 
 
+
+
+
 ## String
-
-
-
-
 1. [reverseWords](https://leetcode.com/problems/reverse-words-in-a-string/)
 **Medium**
 -> simple stack approach
@@ -117,36 +110,33 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 6. [check-if-digits-are-equal-in-string-after-operations-i](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i)
 **Easy**
 ->create a funtion for the given operation so that we can repeatedly call it until the length of string is 2. finally check if both digits are equal or not.
-
 7. [lexicographically-smallest-string-after-reverse]
 (https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/)
 **Medium**
 ->check all possible reversals by iterating through each index and reversing the substring from start to that index and from that index to end..keep track of smallest string and return it
-
 8. [remove-zeros-in-decimal-representation]
 (https://leetcode.com/problems/remove-zeros-in-decimal-representation/)
 **Easy**
 ->Approach: convert number to string and iterate through each character..add non zero characters to result string..finally convert result string to integer and return
-
-
 9. [Number of Laser Beams in a Bank]
 ( https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)
 **Medium**
 ->basically number of beams between two subsequent rows containing device will be product of sum of devices of each row
 
+
+
+
+
 ## Dynamic programming
-
-
-
-
 1. [climbing-stairs](https://leetcode.com/problems/climbing-stairs/)
 **Easy**
 -> Use recursion with memoization to avoid recomputation of already solved subproblems. The number of ways to reach the nth step is the sum of the ways to reach the (n-1)th and (n-2)th steps.
+
+
+
+
+
 ## Linked List
-
-
-
-
 1. [middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/)
 **Easy**
 -> get to the middle by initializing two pointers at ste start and moving one by one step and another by two step when the two step pointer reaches the end one step pointer will be at the middle of linked list.
@@ -161,13 +151,16 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 5. [remove-nth-node-from-end-of-list] **Medium** 
 ->move a dummy pointer n time forward ..then start moving another pointer with that dummy pointer
 if dummy pointer reached at last node that means another pointer is at nth node..then remove nth node
+6. [delete-nodes-from-linked-list-present-in-array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/)
+**Medium**
+->use a set to store the values in the array for O(1) lookup, then iterate through the linked list and remove nodes whose values are in the set
+
+
 
 
 
 
 # Binary search
-
-1. [sqrtx
-]# Link: https://leetcode.com/problems/sqrtx/
+1. [sqrtx](https://leetcode.com/problems/sqrtx/)
  **Easy**
-->s Binary search between 0 to x to find the integer square root. If mid*mid is equal to x, return mid. If mid*mid is greater than x, move the right pointer to mid-1. If mid*mid is less than x, update maxi to mid if mid is greater than maxi and move the left pointer to mid+1. Finally, return maxi.
+-> Binary search between 0 to x to find the integer square root. If mid*mid is equal to x, return mid. If mid*mid is greater than x, move the right pointer to mid-1. If mid*mid is less than x, update maxi to mid if mid is greater than maxi and move the left pointer to mid+1. Finally, return maxi.

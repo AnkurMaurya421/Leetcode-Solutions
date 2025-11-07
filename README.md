@@ -133,6 +133,11 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 -> Use recursion with memoization to avoid recomputation of already solved subproblems. The number of ways to reach the nth step is the sum of the ways to reach the (n-1)th and (n-2)th steps.
 
 
+2. [Problem: jump-game](https://leetcode.com/problems/jump-game/)
+**Medium**
+-> Use a greedy approach to track the maximum reachable index at each step.
+
+
 
 
 

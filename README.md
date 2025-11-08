@@ -50,6 +50,10 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 11. [minimum-time-to-make-rope-colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) **Medium**
 -> greedy approach, iterate through the rope and whenever two adjacent colors are the same, remove the one with the smaller cost
 
+12. [find-missing-elements](https://leetcode.com/problems/find-missing-elements/description/) **Easy**
+-> Iterate through the range from the minimum to the maximum element in the array and check for each number if it is present in the array
+
+
 
 
 

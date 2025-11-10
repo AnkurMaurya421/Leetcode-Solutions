@@ -138,6 +138,10 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 **Medium**
 -> Use a greedy approach to track the maximum reachable index at each step.
 
+3. [unique-paths](https://leetcode.com/problems/unique-paths/)
+**Medium**
+->Use a Dp approact with memoization to store the number of unique paths to each cell.
+
 
 
 

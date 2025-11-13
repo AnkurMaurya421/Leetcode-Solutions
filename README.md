@@ -123,6 +123,11 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 ( https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)
 **Medium**
 ->basically number of beams between two subsequent rows containing device will be product of sum of devices of each row
+10. [largest-3-same-digit-number-in-string](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)
+**Easy**
+-> Create a list of all possible 3 same digit combinations from '999' to '000' and check if they are present in the input string.
+
+
 
 
 

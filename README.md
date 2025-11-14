@@ -126,6 +126,12 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 10. [largest-3-same-digit-number-in-string](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)
 **Easy**
 -> Create a list of all possible 3 same digit combinations from '999' to '000' and check if they are present in the input string.
+11. 
+[maximum-number-of-operations-to-move-ones-to-the-end](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/)
+**Medium**
+->Use two pointers to track the rightmost zero and iterate through the string counting the number of ones before each zero to calculate the maximum operations.
+
+
 
 
 

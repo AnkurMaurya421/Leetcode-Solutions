@@ -83,6 +83,11 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 **Easy**
 -> set bit numbers are of form (2 ** n)-1 . So we can keep on checking for (2**n)-1 until we find the number greater than or equal to num.
 
+8. [find-n-unique-integers-sum-up-to-zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)
+**Easy**
+->We can pair positive and negative integers to sum up to zero. If n is odd, we can include zero as well.
+
+
 
 
 

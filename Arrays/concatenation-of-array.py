@@ -4,7 +4,6 @@
 # Approach: Just extend the array with itself
 
 
-from rpds import List
 
 
 class Solution:

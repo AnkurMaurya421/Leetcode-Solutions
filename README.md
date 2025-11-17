@@ -52,6 +52,11 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 
 12. [find-missing-elements](https://leetcode.com/problems/find-missing-elements/description/) **Easy**
 -> Iterate through the range from the minimum to the maximum element in the array and check for each number if it is present in the array
+13. [Check if All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)
+**Easy**
+->Iterating through the array and counting zeros between 1s
+
+
 
 
 

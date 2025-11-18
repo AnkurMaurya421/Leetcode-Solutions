@@ -55,6 +55,11 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 13. [Check if All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)
 **Easy**
 ->Iterating through the array and counting zeros between 1s
+14. [Problem: 1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)
+**Easy**
+-> Check the last two bits and iterate through the array to determine if the last character is a 1-bit character or not
+
+
 
 
 

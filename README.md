@@ -59,6 +59,11 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 **Easy**
 -> Check the last two bits and iterate through the array to determine if the last character is a 1-bit character or not
 
+15. [count-elements-with-maximum-frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/)
+**Easy**
+->Use a hash map to count the frequency of each element in the array 
+
+
 
 
 

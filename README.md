@@ -205,3 +205,15 @@ if dummy pointer reached at last node that means another pointer is at nth node.
 1. [sqrtx](https://leetcode.com/problems/sqrtx/)
  **Easy**
 -> Binary search between 0 to x to find the integer square root. If mid*mid is equal to x, return mid. If mid*mid is greater than x, move the right pointer to mid-1. If mid*mid is less than x, update maxi to mid if mid is greater than maxi and move the left pointer to mid+1. Finally, return maxi.
+
+2. [binary-search](https://leetcode.com/problems/binary-search/)
+**Easy**
+->Basic binary search algorithm implementation
+
+3. [search-insert-position](https://leetcode.com/problems/search-insert-position/)
+ **Easy**
+->Basic binary search algorithm implementation with slight modification to return the insert position if the target is not found.
+
+4. [find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
+**Easy**
+->Approach: Basic binary search algorithm implementation to find the smallest letter greater than the target. Initialize left and right pointers, and a variable to store the current greatest letter found. Update the pointers based on comparisons and finally return the smallest letter greater than the target.

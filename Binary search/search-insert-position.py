@@ -1,0 +1,30 @@
+
+
+
+
+# Problem: search-insert-position
+# Link: https://leetcode.com/problems/search-insert-position/
+# Difficulty: Easy
+# Approach: Basic binary search algorithm implementation with slight modification to return the insert position if the target is not found.
+from typing import List
+
+
+
+
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        #basic binary search algorithm 
+        left=0
+        right=len(nums)-1
+        
+        while left<=right:
+            mid=(left+right)//2
+
+            if nums[mid]==target:
+                return mid
+            if nums[mid]<target:
+                left=mid+1
+            else:
+                right=mid-1
+          
+        return max(left,right)

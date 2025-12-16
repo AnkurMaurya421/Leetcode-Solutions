@@ -63,7 +63,9 @@ finally add minimum operations needed to achieve last element of nums2 from any 
 **Easy**
 ->Use a hash map to count the frequency of each element in the array 
 
-
+16. [coupon-code-validator](https://leetcode.com/problems/coupon-code-validator/)
+**Easy**
+S->orting and Validation.Validate each coupon code based on given criteria
 
 
 
